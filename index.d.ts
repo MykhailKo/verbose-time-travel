@@ -4,6 +4,6 @@ declare module 'verbose-time-travel' {
     public back(fluctuation?: string): Date;
     public forward(fluctuation?: string): Date;
   }
-  export const travel = (fluctuation: string) => VerboseTimeTravel;
-  export const travelFrom = (from: Date) => VerboseTimeTravel;
+  export function travel(fluctuation: string): VerboseTimeTravel;
+  export function travelFrom(from: Date): VerboseTimeTravel;
 }

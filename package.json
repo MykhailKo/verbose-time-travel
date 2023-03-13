@@ -4,7 +4,8 @@
   "description": "Semantic lightweight date/time change with verbose alises",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish:copy": "copyfiles README.md package.json index.d.ts ./dist"
   },
   "repository": {
     "type": "git",
