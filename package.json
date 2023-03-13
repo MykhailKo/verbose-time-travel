@@ -1,0 +1,39 @@
+{
+  "name": "verbose-time-travel",
+  "version": "1.0.0",
+  "description": "Semantic lightweight date/time change with verbose alises",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MykhailKo/verbose-time-travel.git"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "timestamp",
+    "change",
+    "timestring",
+    "datestring",
+    "string",
+    "fluctuation",
+    "verbose",
+    "semantic",
+    "past",
+    "future"
+  ],
+  "author": {
+    "name": "Mykhailo Kosiuk",
+    "email": "mykhosit@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MykhailKo/verbose-time-travel/issues"
+  },
+  "homepage": "https://github.com/MykhailKo/verbose-time-travel#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.6"
+  }
+}
