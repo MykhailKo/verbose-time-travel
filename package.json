@@ -1,6 +1,6 @@
 {
   "name": "verbose-time-travel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Semantic lightweight date/time change with verbose alises",
   "main": "index.js",
   "scripts": {
