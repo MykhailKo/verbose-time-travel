@@ -23,7 +23,6 @@ export class VerboseTimeTravel {
     const timeParts = verbose.matchAll(partRegExp);
     if (!timeParts) return 0;
     for (const time of timeParts) {
-      console.log(time);
       const particle = aliases[time[2]];
       if (particle) fluctuation += parseInt(time[1]) * VerboseTimeTravel.timeParticles[particle];
     }
